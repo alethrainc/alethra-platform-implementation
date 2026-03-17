@@ -5,8 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>ALETHRA™ &amp; ALETHA™ — Platform Implementation Roadmap</title>
 <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
-<style>
-:root{--bg:#0a0a0b;--bg1:#111113;--bg2:#161618;--bg3:#1c1c1f;--border:rgba(255,255,255,0.07);--border2:rgba(255,255,255,0.12);--red:#D42027;--red-dim:rgba(212,32,39,0.10);--gold:#C9A84C;--gold-dim:rgba(201,168,76,0.10);--green:#22C97A;--green-dim:rgba(34,201,122,0.08);--blue:#3B8BEB;--blue-dim:rgba(59,139,235,0.08);--purple:#9D7FCC;--teal:#2AB4A0;--text:#E8E6E1;--text2:#9896A0;--text3:#5C5A64;--mono:'DM Mono',monospace;--sans:'DM Sans',sans-serif}
+<style>:root{--bg:#0a0a0b;--bg1:#111113;--bg2:#161618;--bg3:#1c1c1f;--border:rgba(255,255,255,0.07);--border2:rgba(255,255,255,0.12);--red:#D42027;--red-dim:rgba(212,32,39,0.10);--gold:#C9A84C;--gold-dim:rgba(201,168,76,0.10);--green:#22C97A;--green-dim:rgba(34,201,122,0.08);--blue:#3B8BEB;--blue-dim:rgba(59,139,235,0.08);--purple:#9D7FCC;--teal:#2AB4A0;--text:#E8E6E1;--text2:#9896A0;--text3:#5C5A64;--mono:'DM Mono',monospace;--sans:'DM Sans',sans-serif}
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:var(--bg);color:var(--text);font-family:var(--mono);font-size:11px;line-height:1.5;-webkit-font-smoothing:antialiased}
 .top-strip{background:var(--bg1);border-bottom:1px solid var(--border);padding:7px 32px;display:flex;justify-content:space-between;align-items:center;font-size:9.5px;color:var(--text3);letter-spacing:0.07em}
@@ -92,19 +91,37 @@ body{background:var(--bg);color:var(--text);font-family:var(--mono);font-size:11
 .footer{border-top:1px solid var(--border);padding:13px 32px;display:flex;justify-content:space-between;align-items:center;font-size:8.5px;color:var(--text3);letter-spacing:0.07em}
 .ftag{font-size:10.5px;font-weight:500;color:var(--text);letter-spacing:0.09em}
 @media(max-width:960px){.g4,.timeline,.dgrid{grid-template-columns:repeat(2,1fr)}.layer-intro{grid-template-columns:1fr}.pdesc{display:none}}
-@media(max-width:640px){.g2,.g3{grid-template-columns:1fr}.main,.header,.layer-intro{padding:16px}.top-strip,.footer{padding:8px 16px}.footer,.loop,.fflow{flex-direction:column;align-items:flex-start;gap:4px}}
-</style>
+@media(max-width:640px){.g2,.g3{grid-template-columns:1fr}.main,.header,.layer-intro{padding:16px}.top-strip,.footer{padding:8px 16px}.footer,.loop,.fflow{flex-direction:column;align-items:flex-start;gap:4px}}</style>
 </head>
 <body>
-
 <div class="top-strip"><span>ALETHRA™ &amp; ALETHA™ — Platform Implementation Roadmap · v1.1</span><div class="strip-right"><span>March 2026</span><span>Delaware C-Corp · DUNS: 144957457</span><div class="confidential">CONFIDENTIAL</div></div></div>
-<div class="header"><div class="eyebrow">Platform Implementation Roadmap</div><h1>ALETHRA<span class="tm">™</span> &amp; ALETHA<span class="tm">™</span></h1><div class="header-sub">A Governed Intelligence Infrastructure Roadmap for Enterprise, Industrial, and Sovereign Deployments</div><div class="tags"><div class="tag">SIX PHASES</div><div class="tag">NINE MONTHS</div><div class="tag">GOVERNANCE-FIRST ARCHITECTURE</div><div class="tag">LAYERED BUILD SEQUENCE</div><div class="tag">SOVEREIGN DEPLOYMENT READY</div></div></div>
-<div class="layer-intro">
-<div class="layer-card"><div class="lc-label">Internal Intelligence Layer</div><div class="lc-title">ALETHRA™</div><ul class="lc-list"><li>Performs all analysis, reasoning, and intelligence generation</li><li>Operates entirely inside a governed, audited environment</li><li>Never interacts directly with external systems</li></ul></div>
-<div class="layer-card"><div class="lc-label">External Interface Layer</div><div class="lc-title">ALETHA™</div><ul class="lc-list"><li>Delivers intelligence outputs to users and external systems</li><li>Exposes intelligence without exposing internal systems</li><li>Provides role-based, authenticated access</li></ul></div>
-<div class="arch-principle" style="grid-column:1/-1">“The separation between ALETHRA and ALETHA is a core architectural principle — not a design choice but a governance requirement.”</div>
+<div class="header">
+<div class="eyebrow">Platform Implementation Roadmap</div>
+<h1>ALETHRA<span class="tm">™</span> &amp; ALETHA<span class="tm">™</span></h1>
+<div class="header-sub">The governed intelligence infrastructure that enterprise, industrial, and sovereign operators will run on. Built once. Built correctly. Built to last.</div>
+<div class="tags"><div class="tag">SIX PHASES</div><div class="tag">NINE MONTHS</div><div class="tag">GOVERNANCE-FIRST ARCHITECTURE</div><div class="tag">LAYERED BUILD SEQUENCE</div><div class="tag">SOVEREIGN DEPLOYMENT READY</div></div>
 </div>
-
+<div class="layer-intro">
+<div class="layer-card">
+<div class="lc-label">Internal Intelligence Layer</div>
+<div class="lc-title">ALETHRA™</div>
+<ul class="lc-list">
+<li>All reasoning, analysis, and intelligence generation executes here — and only here</li>
+<li>Every computation is governed, logged, and deterministically replayable</li>
+<li>No external system touches this layer. That is non-negotiable.</li>
+</ul>
+</div>
+<div class="layer-card">
+<div class="lc-label">External Interface Layer</div>
+<div class="lc-title">ALETHA™</div>
+<ul class="lc-list">
+<li>The surface through which enterprises and sovereigns consume intelligence</li>
+<li>Structured, role-controlled, and authenticated at every access point</li>
+<li>Intelligence is exposed. The engine that produces it never is.</li>
+</ul>
+</div>
+<div class="arch-principle" style="grid-column:1/-1">“The boundary between ALETHRA and ALETHA is not a design preference. It is the architectural contract on which enterprise trust is built. You do not collapse this boundary to move faster. You protect it because it is the product.”</div>
+</div>
 <div class="tl-section"><div class="tl-label">Nine Months to Operational Sovereignty</div>
 <div class="timeline">
 <div class="tl-ph ph1"><span class="tl-num">01</span><span class="tl-name">Infrastructure</span><span class="tl-mo">MONTHS 1–2</span></div>
@@ -127,139 +144,232 @@ body{background:var(--bg);color:var(--text);font-family:var(--mono);font-size:11
 </div></div>
 <div class="main">
 <div class="divider">01   Platform Infrastructure Foundation</div>
-<div class="phase ph1"><div class="phdr"><div class="pnum">PH — 1</div><div class="ptitle">PLATFORM INFRASTRUCTURE FOUNDATION</div><div class="pmo">MONTHS 1–2</div><div class="pdesc">Establish the secure base layer and engineering environment required to build and operate the ALETHRA platform.</div></div>
+<div class="phase ph1"><div class="phdr"><div class="pnum">PH — 1</div><div class="ptitle">PLATFORM INFRASTRUCTURE FOUNDATION</div><div class="pmo">MONTHS 1–2</div><div class="pdesc">Every serious infrastructure company builds the foundation before it builds the product. There are no shortcuts here. The base layer either holds sovereign workloads or it doesn’t.</div></div>
 <div class="pbody">
-<div class="g2 gx"><div class="cell cr"><div class="ctitle">Core Infrastructure Systems</div><ul class="clist"><li>Cloud infrastructure environment</li><li>Identity &amp; Access Management (IAM)</li><li>CI/CD deployment pipelines</li><li>Environment separation — Dev / Controlled Build / Production</li><li>Monitoring &amp; logging infrastructure</li><li>Cryptographic trust systems (HSM)</li></ul></div>
-<div class="cell cr"><div class="ctitle">Developer Platform</div><ul class="clist"><li>Repository governance</li><li>Internal SDKs for agent development</li><li>Testing frameworks</li><li>Staging environments</li></ul></div></div>
-<div class="slabel">Implementation Tasks</div><div class="tasks">
-<div class="task"><span class="ta">→</span><span class="tt">Deploy core cloud infrastructure on Amazon Web Services</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Configure identity backbone and role-based access control (RBAC)</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Establish CI/CD deployment pipelines</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Implement three-environment architecture: Development, Controlled Build, Production</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Implement infrastructure-as-code using Terraform</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Deploy container orchestration using Kubernetes</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Configure secure audit storage</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Deploy cryptographic key custody using HSM systems</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Deploy monitoring and observability infrastructure</span></div>
-</div><div class="badges"><div class="badge">AWS</div><div class="badge">Terraform</div><div class="badge">Kubernetes</div><div class="badge">HSM</div></div>
-<div class="slabel" style="margin-top:12px">Deliverables</div><div class="deliverables">
-<div class="dlv"><span class="dc">✓</span><span class="dt">Operational development environment</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Secure multi-tenant infrastructure fabric</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Automated deployment pipelines</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Environment isolation architecture</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Monitoring and logging stack</span></div>
+<div class="g2 gx">
+<div class="cell cr"><div class="ctitle">Core Infrastructure Systems</div><ul class="clist">
+<li>Cloud compute environment — purpose-built, not repurposed</li>
+<li>Identity &amp; Access Management that treats every credential as a threat surface</li>
+<li>CI/CD pipelines designed for zero-trust release governance</li>
+<li>Three fully isolated environments: Development, Controlled Build, Production — no crossover, no exceptions</li>
+<li>Observability from day one — if you can’t measure it, you can’t govern it</li>
+<li>Hardware Security Modules for cryptographic key custody — not optional</li>
+</ul></div>
+<div class="cell cr"><div class="ctitle">Developer Platform</div><ul class="clist">
+<li>Repository governance that enforces architectural standards at commit time</li>
+<li>Internal SDKs that make the right way the only way to build agents</li>
+<li>Testing frameworks that validate governance, not just functionality</li>
+<li>Staging environments that mirror production — no surprises at deployment</li>
+</ul></div></div>
+<div class="slabel">What We Build</div><div class="tasks">
+<div class="task"><span class="ta">→</span><span class="tt">Deploy sovereign-grade cloud infrastructure on AWS — every configuration version-controlled, every change auditable</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Implement identity backbone with RBAC enforced at the infrastructure layer, not the application layer</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Build CI/CD pipelines that require policy sign-off before any artifact reaches production</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Enforce hard environment isolation — development code never touches production data, ever</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Deploy Terraform as the single source of truth for all infrastructure — no manual provisioning, no drift</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Stand up Kubernetes orchestration configured for multi-tenant workload isolation from day one</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Provision immutable audit storage — every system event written once, readable forever, deletable by no one</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Deploy HSM key custody — cryptographic material never exists in software memory unprotected</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Wire full observability stack — if something breaks at 3am, we know before the customer does</span></div>
+</div>
+<div class="badges"><div class="badge">AWS</div><div class="badge">Terraform</div><div class="badge">Kubernetes</div><div class="badge">HSM</div></div>
+<div class="slabel" style="margin-top:12px">What Gets Delivered</div><div class="deliverables">
+<div class="dlv"><span class="dc">✓</span><span class="dt">A production-grade engineering environment capable of hosting sovereign workloads from day one</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">Multi-tenant infrastructure fabric with cryptographic isolation between customer environments</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">Fully automated deployment pipelines — humans approve, machines execute</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">Environment isolation architecture that survives security audits at government procurement level</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">Monitoring and logging stack that makes the platform legible to engineers, operators, and auditors</span></div>
 </div></div></div>
 <div class="divider">02   Agent Control Plane</div>
-<div class="phase ph2"><div class="phdr"><div class="pnum">PH — 2</div><div class="ptitle">AGENT CONTROL PLANE</div><div class="pmo">MONTHS 1–2</div><div class="pdesc">Build the governance backbone that manages every agent, workflow, and system action across the platform.</div></div>
+<div class="phase ph2"><div class="phdr"><div class="pnum">PH — 2</div><div class="ptitle">AGENT CONTROL PLANE</div><div class="pmo">MONTHS 1–2</div><div class="pdesc">AI without a control plane is a liability. Every agent, every action, every workflow runs through a single governance layer — or it doesn’t run at all.</div></div>
 <div class="pbody">
-<div class="quote">“The Control Plane enforces architectural integrity, ensuring every system action is authorized, auditable, and policy governed.”</div>
-<div class="g2 gx"><div class="cell cg"><div class="ctitle">Human Governance Controls</div><ul class="clist"><li>Approval checkpoints</li><li>Policy override authority</li><li>Decision escalation protocols</li><li>Operational supervision tools</li></ul></div>
-<div class="cell cg"><div class="ctitle">Core Subsystems</div><ul class="clist"><li>Event Trigger System</li><li>Workflow Orchestration Engine</li><li>Policy &amp; Approval Engine</li><li>Agent Identity &amp; Permission Framework</li><li>Audit Logging Infrastructure</li><li>Failure Monitoring &amp; Escalation</li></ul></div></div>
-<div class="cell gx"><div class="ctitle">Data Infrastructure</div><div class="g4">
-<div><div style="font-size:8.5px;color:var(--text3);margin-bottom:4px">Ingestion</div><div style="font-size:9.5px;color:var(--text2);font-family:var(--sans)">Data ingestion pipelines · Event streaming backbone</div></div>
-<div><div style="font-size:8.5px;color:var(--text3);margin-bottom:4px">Telemetry</div><div style="font-size:9.5px;color:var(--text2);font-family:var(--sans)">Telemetry ingestion · Analytics data warehouse</div></div>
-<div><div style="font-size:8.5px;color:var(--text3);margin-bottom:4px">Transform</div><div style="font-size:9.5px;color:var(--text2);font-family:var(--sans)">Transformation pipelines · Data lineage tracking</div></div>
-<div><div style="font-size:8.5px;color:var(--text3);margin-bottom:4px">Stack</div><div style="font-size:9.5px;color:var(--text2);font-family:var(--sans)">Apache Kafka · Snowflake · dbt</div></div>
+<div class="quote">“The companies that will win in enterprise AI are not the ones that move the fastest. They are the ones that built governance into the execution layer before they scaled. You cannot bolt governance on afterward. The window to do it right is now, and it is Phase 2.”</div>
+<div class="g2 gx">
+<div class="cell cg"><div class="ctitle">Human Governance Controls</div><ul class="clist">
+<li>Approval checkpoints that cannot be bypassed by any agent or automated workflow</li>
+<li>Policy override authority scoped to named human principals only</li>
+<li>Escalation protocols that route consequential decisions to accountable decision-makers</li>
+<li>Real-time supervision tools that give operators visibility into every active agent state</li>
+</ul></div>
+<div class="cell cg"><div class="ctitle">Core Control Systems</div><ul class="clist">
+<li>Event Trigger System — every action begins with a verifiable, logged event</li>
+<li>Workflow Orchestration Engine — state machines with deterministic transitions</li>
+<li>Policy &amp; Approval Engine — rules evaluated at execution time, not design time</li>
+<li>Agent Identity &amp; Permission Framework — least-privilege by default, zero exceptions</li>
+<li>Immutable Audit Log — cryptographically chained, tamper-evident by construction</li>
+<li>Failure Detection &amp; Escalation — the system knows when something is wrong before humans do</li>
+</ul></div></div>
+<div class="cell gx"><div class="ctitle">Data &amp; Telemetry Infrastructure</div><div class="g4">
+<div><div style="font-size:8.5px;color:var(--text3);margin-bottom:4px">Ingestion</div><div style="font-size:9.5px;color:var(--text2);font-family:var(--sans)">High-throughput data ingestion with schema enforcement · Event streaming at operational scale</div></div>
+<div><div style="font-size:8.5px;color:var(--text3);margin-bottom:4px">Telemetry</div><div style="font-size:9.5px;color:var(--text2);font-family:var(--sans)">Full-fidelity telemetry ingestion · Analytical warehouse for operational intelligence</div></div>
+<div><div style="font-size:8.5px;color:var(--text3);margin-bottom:4px">Lineage</div><div style="font-size:9.5px;color:var(--text2);font-family:var(--sans)">End-to-end data lineage · Every transformation traceable to its source</div></div>
+<div><div style="font-size:8.5px;color:var(--text3);margin-bottom:4px">Stack</div><div style="font-size:9.5px;color:var(--text2);font-family:var(--sans)">Apache Kafka · Snowflake · dbt — proven at hyperscale</div></div>
 </div></div>
-<div class="slabel">Implementation Tasks</div><div class="tasks">
-<div class="task"><span class="ta">→</span><span class="tt">Design event-driven operational architecture</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Implement workflow state management system</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Deploy policy evaluation engine</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Create agent identity and permission framework</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Implement immutable audit logging infrastructure</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Establish failure detection and escalation protocols</span></div>
+<div class="slabel">What We Build</div><div class="tasks">
+<div class="task"><span class="ta">→</span><span class="tt">Design an event-driven architecture where every system action is a discrete, logged, policy-evaluated event</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Build workflow state management that makes agent behavior deterministic and auditable at every step</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Deploy a policy engine that evaluates governance rules at runtime — not as suggestions but as hard constraints</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Create an agent identity framework where every agent has a cryptographically verifiable identity and scoped permissions</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Implement immutable audit logging — the kind that satisfies regulators, satisfies boards, and satisfies courts</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Build failure detection that pages a human before any anomaly reaches consequential scale</span></div>
 </div>
-<div class="slabel" style="margin-top:12px">Deliverables</div><div class="deliverables">
-<div class="dlv"><span class="dc">✓</span><span class="dt">Fully operational Agent Control Plane</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Event-driven system orchestration</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Policy-driven governance enforcement</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Immutable audit logging infrastructure</span></div>
+<div class="slabel" style="margin-top:12px">What Gets Delivered</div><div class="deliverables">
+<div class="dlv"><span class="dc">✓</span><span class="dt">A fully operational Control Plane — the governance backbone every subsequent layer depends on</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">Event-driven orchestration that makes the entire platform observable, reproducible, and auditable</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">Policy enforcement that is architectural, not procedural — it cannot be skipped</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">An audit log that any enterprise compliance team, government auditor, or board can stand behind</span></div>
 </div></div></div>
 <div class="divider">03   ALETHRA™ Intelligence Layer</div>
-<div class="phase ph3"><div class="phdr"><div class="pnum">PH — 3</div><div class="ptitle">ALETHRA™ INTELLIGENCE LAYER</div><div class="pmo">MONTHS 2–4</div><div class="pdesc">Deploy the governed intelligence architecture. All intelligence systems operate inside ALETHRA and are governed by the Control Plane.</div></div>
+<div class="phase ph3"><div class="phdr"><div class="pnum">PH — 3</div><div class="ptitle">ALETHRA™ INTELLIGENCE LAYER</div><div class="pmo">MONTHS 2–4</div><div class="pdesc">This is where intelligence is actually produced. Every model, every agent, every inference runs inside the governed boundary. The Control Plane already exists. Now it has something to govern.</div></div>
 <div class="pbody">
-<div class="slabel">Master Intelligence Core</div>
+<div class="slabel">Master Intelligence Core — Four Mandatory Processing Layers</div>
 <div class="g4 gx">
-<div class="cell cb"><div class="ctitle">01 — Signal Integrity</div><div style="font-size:9px;color:var(--text2);font-family:var(--sans)">Validates timestamp consistency, source authenticity, and data integrity.</div></div>
-<div class="cell cb"><div class="ctitle">02 — Pattern Evaluation</div><div style="font-size:9px;color:var(--text2);font-family:var(--sans)">Compares real-time telemetry against registered operational baselines.</div></div>
-<div class="cell cb"><div class="ctitle">03 — Contextual Overlay</div><div style="font-size:9px;color:var(--text2);font-family:var(--sans)">Applies environmental, operational, and jurisdictional context.</div></div>
-<div class="cell cb"><div class="ctitle">04 — Policy Enforcement</div><div style="font-size:9px;color:var(--text2);font-family:var(--sans)">Classifies events according to governance thresholds.</div></div>
+<div class="cell cb"><div class="ctitle">01 — Signal Integrity</div><div style="font-size:9px;color:var(--text2);font-family:var(--sans)">Every input is validated before reasoning begins. Timestamp consistency, source authenticity, data integrity. Garbage in is not an option.</div></div>
+<div class="cell cb"><div class="ctitle">02 — Pattern Evaluation</div><div style="font-size:9px;color:var(--text2);font-family:var(--sans)">Real-time telemetry measured against registered operational baselines. Anomalies surface before they become incidents.</div></div>
+<div class="cell cb"><div class="ctitle">03 — Contextual Overlay</div><div style="font-size:9px;color:var(--text2);font-family:var(--sans)">Environmental, operational, and jurisdictional context applied to every inference. Intelligence without context is just pattern matching.</div></div>
+<div class="cell cb"><div class="ctitle">04 — Policy Enforcement</div><div style="font-size:9px;color:var(--text2);font-family:var(--sans)">Every output classified against governance thresholds before it leaves the layer. The system decides what class of response is warranted.</div></div>
 </div>
 <div class="g2 gx">
-<div class="cell"><div class="ctitle">Agent Runtime Infrastructure</div><ul class="clist"><li>Model orchestration layer</li><li>Agent execution framework</li><li>Context management system</li><li>Vector memory store</li><li>Tool integration framework</li></ul><div class="badges"><div class="badge">LangChain</div><div class="badge">LlamaIndex</div></div></div>
-<div class="cell"><div class="ctitle">Model Orchestration</div><ul class="clist"><li>LLM orchestration layer</li><li>Model routing system</li><li>Prompt management</li><li>Response validation</li></ul></div>
+<div class="cell"><div class="ctitle">Agent Runtime Infrastructure</div><ul class="clist">
+<li>Model orchestration that routes to the right model for the right task — cost-aware, latency-aware, governance-aware</li>
+<li>Agent execution framework with full lifecycle management and state persistence</li>
+<li>Context management that gives agents the right information at the right moment</li>
+<li>Vector memory store for long-horizon operational memory</li>
+<li>Tool integration framework — agents access external systems through controlled, audited interfaces only</li>
+</ul><div class="badges"><div class="badge">LangChain</div><div class="badge">LlamaIndex</div></div></div>
+<div class="cell"><div class="ctitle">Model Orchestration Layer</div><ul class="clist">
+<li>LLM orchestration that abstracts model provider dependency — no single-vendor lock-in at the inference layer</li>
+<li>Intelligent model routing based on task classification, security tier, and cost envelope</li>
+<li>Prompt management with version control — every prompt is a governed artifact</li>
+<li>Response validation that checks outputs against policy before delivery</li>
+</ul></div>
 </div>
 <div class="g2 gx">
-<div class="cell cb"><div class="ctitle">Corporate Intelligence Agents</div><ul class="clist"><li>HR Intelligence</li><li>Finance Intelligence</li><li>Legal Intelligence</li><li>Operations Intelligence</li><li>Sales Intelligence</li><li>Marketing Intelligence</li><li>Executive Strategy</li></ul></div>
-<div class="cell cb"><div class="ctitle">Sovereign Vertical Agents</div><ul class="clist"><li>Energy Intelligence</li><li>Healthcare Intelligence</li><li>Government / Municipal Intelligence</li><li>Agriculture Intelligence</li><li>Maritime Intelligence</li><li>Defense / Aerospace Intelligence</li><li>Trade / Commerce Intelligence</li><li>Water / Utility Intelligence</li></ul></div>
+<div class="cell cb"><div class="ctitle">Corporate Intelligence Agents</div><ul class="clist">
+<li>HR Intelligence — workforce analytics, compliance monitoring, organizational risk</li>
+<li>Finance Intelligence — anomaly detection, regulatory reporting, cash flow analysis</li>
+<li>Legal Intelligence — contract analysis, regulatory change monitoring, risk classification</li>
+<li>Operations Intelligence — process efficiency, supply chain visibility, operational continuity</li>
+<li>Sales Intelligence — pipeline analysis, market signal processing, forecast modeling</li>
+<li>Marketing Intelligence — brand signal monitoring, campaign performance, competitive analysis</li>
+<li>Executive Strategy — cross-domain synthesis, scenario modeling, board-level reporting</li>
+</ul></div>
+<div class="cell cb"><div class="ctitle">Sovereign Vertical Agents</div><ul class="clist">
+<li>Energy Intelligence — grid monitoring, extraction optimization, regulatory compliance</li>
+<li>Healthcare Intelligence — clinical operations, drug safety signals, regulatory submissions</li>
+<li>Government / Municipal Intelligence — public service delivery, infrastructure monitoring, policy impact</li>
+<li>Agriculture Intelligence — crop yield, supply chain, climate risk, food security</li>
+<li>Maritime Intelligence — fleet operations, port logistics, international trade compliance</li>
+<li>Defense / Aerospace Intelligence — situational awareness, logistics, mission planning support</li>
+<li>Trade / Commerce Intelligence — tariff analysis, market access, cross-border compliance</li>
+<li>Water / Utility Intelligence — infrastructure integrity, demand forecasting, regulatory reporting</li>
+</ul></div>
 </div>
-<div class="slabel">Deliverables</div><div class="deliverables">
-<div class="dlv"><span class="dc">✓</span><span class="dt">Operational intelligence agent ecosystem</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Controlled agent execution through the Control Plane</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Structured intelligence outputs</span></div>
+<div class="slabel">What Gets Delivered</div><div class="deliverables">
+<div class="dlv"><span class="dc">✓</span><span class="dt">A fully operational intelligence ecosystem — every agent running under Control Plane authority, no exceptions</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">Governed model execution that enterprise procurement, legal, and compliance teams can formally approve</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">Structured intelligence outputs — not chat responses, not summaries, but decision-grade information objects</span></div>
 </div></div></div>
 <div class="divider">04   ALETHA™ Interface Layer</div>
-<div class="phase ph4"><div class="phdr"><div class="pnum">PH — 4</div><div class="ptitle">ALETHA™ INTERFACE LAYER</div><div class="pmo">MONTHS 3–5</div><div class="pdesc">Create the external delivery infrastructure through which intelligence outputs are accessed. Exposes intelligence while preserving internal ALETHRA protection.</div></div>
+<div class="phase ph4"><div class="phdr"><div class="pnum">PH — 4</div><div class="ptitle">ALETHA™ INTERFACE LAYER</div><div class="pmo">MONTHS 3–5</div><div class="pdesc">The interface is not the product. The intelligence is the product. ALETHA delivers it in the forms that operators, executives, and sovereign institutions can actually act on.</div></div>
 <div class="pbody">
 <div class="g2 gx">
-<div class="cell ct"><div class="ctitle">Interface Components</div><ul class="clist"><li>Enterprise Dashboards — real-time intelligence visualization</li><li>Sector Intelligence Portals — vertical-specific access points</li><li>API Access Interfaces — controlled gateway for integrations</li><li>Municipal &amp; Government Portals — secure sovereign access</li></ul></div>
-<div class="cell ct"><div class="ctitle">External Tool Integrations</div><ul class="clist"><li>Enterprise Resource Planning (ERP) systems</li><li>Customer Relationship Management (CRM) platforms</li><li>Productivity suites — Microsoft 365, Google Workspace</li><li>Communication platforms — Slack, Teams</li></ul></div>
+<div class="cell ct"><div class="ctitle">Interface Components</div><ul class="clist">
+<li>Enterprise Intelligence Dashboards — operational state, anomaly alerts, decision queues, in real time</li>
+<li>Sector Intelligence Portals — vertical-specific interfaces built for the people who operate in those verticals</li>
+<li>API Access Layer — controlled, authenticated, rate-governed access for enterprise system integrations</li>
+<li>Municipal &amp; Government Portals — purpose-built for sovereign operators with restricted connectivity requirements</li>
+</ul></div>
+<div class="cell ct"><div class="ctitle">Enterprise Integrations</div><ul class="clist">
+<li>ERP systems — intelligence delivered into the operational workflows where decisions actually get made</li>
+<li>CRM platforms — customer and market intelligence surfaced at the point of action</li>
+<li>Microsoft 365 and Google Workspace — intelligence available inside the tools people use every day</li>
+<li>Slack and Teams — operational alerts and decision requests delivered where teams already coordinate</li>
+</ul></div>
 </div>
-<div class="slabel">Implementation Tasks</div><div class="tasks">
-<div class="task"><span class="ta">→</span><span class="tt">Build enterprise dashboard framework</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Develop sector-specific intelligence interfaces</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Implement API gateway for controlled integrations</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Create human approval checkpoints within user workflows</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Implement authentication and role-based access (RBAC) systems</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Establish external tool integrations</span></div>
+<div class="slabel">What We Build</div><div class="tasks">
+<div class="task"><span class="ta">→</span><span class="tt">Build enterprise dashboards that present intelligence as decisions, not data — every view is actionable</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Develop sector-specific interfaces designed with the actual operators in each vertical, not generic UI templates</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Implement an API gateway that enforces the same governance at the integration layer as exists inside ALETHRA</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Build human approval checkpoints directly into user workflows — consequential actions require human confirmation</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Deploy authentication and RBAC that matches the security posture of enterprise and government environments</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Establish controlled integrations that connect ALETHA to existing enterprise infrastructure without creating new attack surfaces</span></div>
 </div>
-<div class="slabel" style="margin-top:12px">Deliverables</div><div class="deliverables">
-<div class="dlv"><span class="dc">✓</span><span class="dt">Operational ALETHA interface environment</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Secure external access to intelligence outputs</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Role-based platform access controls</span></div>
+<div class="slabel" style="margin-top:12px">What Gets Delivered</div><div class="deliverables">
+<div class="dlv"><span class="dc">✓</span><span class="dt">An operational interface environment that enterprise operators, government officials, and sovereign institutions can actually use</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">Secure, audited external access to intelligence outputs — every access event logged, every permission verified</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">Role-based access controls that satisfy enterprise security teams, legal departments, and government procurement</span></div>
 </div></div></div>
 <div class="divider">05   Governance Hardening &amp; Security Architecture</div>
-<div class="phase ph5"><div class="phdr"><div class="pnum">PH — 5</div><div class="ptitle">GOVERNANCE HARDENING &amp; SECURITY ARCHITECTURE</div><div class="pmo">MONTHS 4–6</div><div class="pdesc">Prepare the platform for enterprise-grade governance, security, and regulatory compliance for large organizations and sovereign deployments.</div></div>
+<div class="phase ph5"><div class="phdr"><div class="pnum">PH — 5</div><div class="ptitle">GOVERNANCE HARDENING &amp; SECURITY ARCHITECTURE</div><div class="pmo">MONTHS 4–6</div><div class="pdesc">Governance is not a phase you add at the end. But this phase hardens what was built into standards that enterprise legal, government regulators, and board-level risk committees can formally accept.</div></div>
 <div class="pbody">
 <div class="g2 gx">
-<div class="cell cp"><div class="ctitle">Governance Systems</div><ul class="clist"><li>Data classification enforcement</li><li>Human-in-the-loop decision checkpoints</li><li>Expanded audit logging</li><li>Enterprise security monitoring</li><li>Compliance readiness frameworks</li></ul></div>
-<div class="cell cp"><div class="ctitle">Compliance Frameworks Supported</div><table class="comp"><tr><td>ISO 27001</td><td>Security Management</td></tr><tr><td>SOC 2</td><td>Trust Services Criteria</td></tr><tr><td>GDPR</td><td>Data Privacy</td></tr><tr><td>NIST SP 800-53</td><td>Federal Systems</td></tr><tr><td>HIPAA</td><td>Healthcare Data</td></tr></table></div>
+<div class="cell cp"><div class="ctitle">Governance Systems</div><ul class="clist">
+<li>Data classification that enforces handling rules automatically — no human compliance officer can catch everything</li>
+<li>Human-in-the-loop checkpoints for decisions above defined risk thresholds — machines propose, humans authorize</li>
+<li>Audit logging expanded to cover every governance event, not just system events</li>
+<li>Enterprise security monitoring with anomaly detection tuned to the threat model of sovereign infrastructure</li>
+<li>Compliance readiness frameworks — documented, tested, and ready for third-party audit on request</li>
+</ul></div>
+<div class="cell cp"><div class="ctitle">Compliance Frameworks</div><table class="comp">
+<tr><td>ISO 27001</td><td>Information security management — the baseline that enterprise procurement requires</td></tr>
+<tr><td>SOC 2</td><td>Trust services criteria — the standard that enterprise legal and finance teams accept</td></tr>
+<tr><td>GDPR</td><td>Data privacy — mandatory for any European enterprise or sovereign deployment</td></tr>
+<tr><td>NIST SP 800-53</td><td>Federal security controls — required for US government and defense adjacency</td></tr>
+<tr><td>HIPAA</td><td>Healthcare data — required for hospital systems, health ministries, and clinical deployments</td></tr>
+</table></div>
 </div>
 <div class="g2 gx">
-<div class="cell"><div class="ctitle">Security Architecture</div><ul class="clist"><li>Zero-trust networking architecture</li><li>Key management systems (HSM)</li><li>Secrets management</li><li>Encrypted data pipelines</li></ul></div>
-<div class="cell"><div class="ctitle">AI Observability</div><ul class="clist"><li>Model output monitoring</li><li>Anomaly detection for AI responses</li><li>Agent performance monitoring</li><li>Operational dashboards</li></ul><div class="badges"><div class="badge">Prometheus</div><div class="badge">Grafana</div></div></div>
+<div class="cell"><div class="ctitle">Security Architecture</div><ul class="clist">
+<li>Zero-trust networking — every service, every request authenticated, no implicit trust inside the perimeter</li>
+<li>HSM-backed key management — cryptographic material hardware-protected at every layer</li>
+<li>Secrets management with automatic rotation — no long-lived credentials anywhere in the stack</li>
+<li>End-to-end encrypted data pipelines — data encrypted in transit, at rest, and during processing</li>
+</ul></div>
+<div class="cell"><div class="ctitle">AI Observability</div><ul class="clist">
+<li>Model output monitoring — every inference scored against quality and safety baselines</li>
+<li>Anomaly detection for AI responses — behavioral drift detected before it becomes a risk event</li>
+<li>Agent performance monitoring — latency, accuracy, and governance compliance tracked continuously</li>
+<li>Operational dashboards — the intelligence infrastructure is itself observable to operators in real time</li>
+</ul><div class="badges"><div class="badge">Prometheus</div><div class="badge">Grafana</div></div></div>
 </div>
-<div class="slabel">Deliverables</div><div class="deliverables">
-<div class="dlv"><span class="dc">✓</span><span class="dt">Full governance enforcement across platform layers</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Compliance-ready audit infrastructure</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Enterprise security monitoring systems</span></div>
+<div class="slabel">What Gets Delivered</div><div class="deliverables">
+<div class="dlv"><span class="dc">✓</span><span class="dt">Governance enforcement across every platform layer — not policy documents, actual controls</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">Audit infrastructure that satisfies ISO 27001, SOC 2, GDPR, NIST, and HIPAA simultaneously</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">Security monitoring architecture that meets the threat model of PEMEX, national health ministries, and defense-adjacent operators</span></div>
 </div></div></div>
 <div class="divider">06   Enterprise &amp; Sovereign Deployments</div>
-<div class="phase ph6"><div class="phdr"><div class="pnum">PH — 6</div><div class="ptitle">ENTERPRISE &amp; SOVEREIGN DEPLOYMENTS</div><div class="pmo">MONTHS 6–9</div><div class="pdesc">Deploy the first operational ALETHRA systems in real-world environments to validate architecture and workflows.</div></div>
+<div class="phase ph6"><div class="phdr"><div class="pnum">PH — 6</div><div class="ptitle">ENTERPRISE &amp; SOVEREIGN DEPLOYMENTS</div><div class="pmo">MONTHS 6–9</div><div class="pdesc">The platform ships. Real operators, real data, real consequences. This is where architecture meets reality — and where every decision made in Phases 1 through 5 either proves itself or doesn’t.</div></div>
 <div class="pbody">
 <div class="dgrid gx">
-<div class="dcard"><div class="dct" style="color:var(--blue)">Cloud Enterprise</div><div class="dcd">Hosted infrastructure using Amazon Web Services. Standard connectivity with managed services.</div></div>
-<div class="dcard"><div class="dct" style="color:var(--teal)">Sovereign Government</div><div class="dcd">Client-controlled infrastructure with restricted external connectivity. Government data centers with controlled updates.</div></div>
-<div class="dcard"><div class="dct" style="color:var(--green)">Air-Gapped Sovereign</div><div class="dcd">Fully isolated environments for defense and critical infrastructure.</div><div class="dcc"><div class="dcb">Offline artifact distribution</div><div class="dcb">Isolated container registries</div><div class="dcb">HSM key custody</div><div class="dcb">NVIDIA DGX A100 clusters</div></div></div>
+<div class="dcard"><div class="dct" style="color:var(--blue)">Cloud Enterprise</div><div class="dcd">Full-capability deployment on AWS. Standard connectivity, managed services, enterprise SLAs. The fastest path to production for Fortune 500 and large industrial operators.</div></div>
+<div class="dcard"><div class="dct" style="color:var(--teal)">Sovereign Government</div><div class="dcd">Client-controlled infrastructure. Restricted external connectivity. Government data centers. ALETHRA runs in environments where the client’s team controls every cable. We bring the platform; they own the perimeter.</div></div>
+<div class="dcard"><div class="dct" style="color:var(--green)">Air-Gapped Sovereign</div><div class="dcd">Fully isolated. No external network access. Defense, critical infrastructure, national intelligence contexts where the network boundary is physical, not logical.</div><div class="dcc">
+<div class="dcb">Offline artifact distribution — no internet dependency at any stage</div>
+<div class="dcb">Isolated container registries — air-gapped software supply chain</div>
+<div class="dcb">Hardware HSM key custody — keys never leave physical hardware</div>
+<div class="dcb">NVIDIA DGX A100 clusters — accelerated inference at sovereign scale</div>
+</div></div>
 </div>
-<div class="slabel">Operational Learning Loop</div>
+<div class="slabel">Operational Learning Loop — How the Platform Gets Better</div>
 <div class="loop"><div class="ls">Production Telemetry Analysis</div><div class="la">→</div><div class="ls">Model Refinement Pipelines</div><div class="la">→</div><div class="ls">Agent Behavior Tuning</div><div class="la">→</div><div class="ls">Architecture Evolution</div></div>
-<div class="slabel" style="margin-top:12px">Implementation Tasks</div><div class="tasks">
-<div class="task"><span class="ta">→</span><span class="tt">Deploy pilot ALETHA interfaces</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Connect enterprise data sources</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Validate agent workflows in production</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Monitor governance and audit systems</span></div>
-<div class="task"><span class="ta">→</span><span class="tt">Refine architecture based on real-world usage</span></div>
+<div class="slabel" style="margin-top:12px">What We Do in This Phase</div><div class="tasks">
+<div class="task"><span class="ta">→</span><span class="tt">Deploy pilot ALETHA interfaces with real operator teams — not demos, actual operational usage</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Connect live enterprise data sources — the intelligence layer processes actual operational data from day one of deployment</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Validate agent workflows under real production conditions — stress, edge cases, and adversarial inputs included</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Monitor governance and audit systems continuously — not for compliance theater, for continuous improvement</span></div>
+<div class="task"><span class="ta">→</span><span class="tt">Refine architecture based on what production actually reveals — every deployment teaches us something the lab could not</span></div>
 </div>
-<div class="slabel" style="margin-top:12px">Deliverables</div><div class="deliverables">
-<div class="dlv"><span class="dc">✓</span><span class="dt">First production ALETHRA deployments</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Validated governance architecture</span></div>
-<div class="dlv"><span class="dc">✓</span><span class="dt">Operational intelligence outputs</span></div>
+<div class="slabel" style="margin-top:12px">What Gets Delivered</div><div class="deliverables">
+<div class="dlv"><span class="dc">✓</span><span class="dt">First production ALETHRA deployments — real operators, real data, real governance in effect</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">Validated governance architecture — not validated in testing, validated against production workloads</span></div>
+<div class="dlv"><span class="dc">✓</span><span class="dt">Operational intelligence outputs that enterprise and sovereign operators are making decisions with</span></div>
 </div></div></div>
 <div class="divider" style="margin-top:32px">Architectural Principle</div>
 <div style="border:1px solid rgba(212,32,39,0.22);background:var(--red-dim);padding:20px 24px;margin-bottom:2px">
 <div style="font-size:8.5px;color:var(--red);letter-spacing:0.2em;text-transform:uppercase;margin-bottom:10px">Governance Is the Foundation</div>
-<div style="font-size:10px;color:var(--text2);font-style:italic;font-family:var(--sans);margin-bottom:16px">“Each layer is built only after the previous layer establishes operational control.”</div>
+<div style="font-size:10px;color:var(--text2);font-style:italic;font-family:var(--sans);margin-bottom:6px">“Every layer is built only after the previous layer establishes operational control. This is not a schedule constraint. It is an architectural law.”</div>
+<div style="font-size:9.5px;color:var(--text3);font-family:var(--sans);margin-bottom:16px">The companies that try to skip to intelligence without building governance first accumulate technical debt that becomes existential liability. We have watched this play out across an entire generation of enterprise software. ALETHRA is built in the sequence that produces durable systems — not the sequence that produces the fastest demo.</div>
 <div class="fflow"><div class="fs">Infrastructure</div><div class="fa">→</div><div class="fs">Control Plane</div><div class="fa">→</div><div class="fs">Intelligence</div><div class="fa">→</div><div class="fs">Interface</div><div class="fa">→</div><div class="fs">Governance</div><div class="fa">→</div><div class="fs">Deployment</div></div>
 </div>
 </div>
